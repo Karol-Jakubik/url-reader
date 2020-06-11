@@ -20,6 +20,6 @@ for li in lists:
     i=1
     list_items =li.find_all('li')
     print('\n')
-    for l in lists_items:
+    for l in list_items:
         print(str(i) + '. '+l.get_text())
         i+=1
